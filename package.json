@@ -1,0 +1,20 @@
+{
+  "name": "discordbot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "request": "^2.88.0",
+    "winston": "^2.3.1"
+  }
+}
