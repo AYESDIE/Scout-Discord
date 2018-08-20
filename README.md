@@ -1,4 +1,4 @@
-# Scout-Discord
+# moon-Discord
 A Discord bot for .asd.
 
 
