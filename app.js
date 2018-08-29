@@ -28,7 +28,6 @@ app.get("/", function(req, res){
         logger.info('Connected');
         logger.info('Logged in as: ');
         logger.info(bot.username + ' - (' + bot.id + ')');
-        bot.sendMessage({ to: '478542893041057792', message: "I'm online." });
 
     });
     bot.on('message', function (user, userID, channelID, message, evt) {
