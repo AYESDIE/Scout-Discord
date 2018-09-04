@@ -122,6 +122,12 @@ app.get("/start", function(req, res){
             }
         }
     });
+
+    // Automatically reconnect if the bot disconnects due to inactivity
+    bot.on('disconnect', function(erMsg, code) {
+        console.log('----- Bot disconnected from Discord with code', code, 'for reason:', erMsg, '-----');
+        bot.connect();
+    });
 });
 
 app.get("*",function(req, res){
